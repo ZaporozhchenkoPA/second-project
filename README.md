@@ -4,15 +4,28 @@
 mkdir ~/second-project && cd ~/second-project && touch README.md
 ```
 2. Инициализация репозитория
-```git init```
+```
+git init
+```
 3. Добавление файла в список отслеживаемых репозиторием
-```git add README.md```
+```
+git add README.md
+```
 4. Выполнение снимка
-```git commit -m 'это первый коммит'```
+```
+git commit -m 'это первый коммит'
+```
 5. Смена ветки
-```git branch -M main```
+```
+git branch -M main
+```
 6. Связь с GITHUB
-```git remote add origin git@github.com:ZaporozhchenkoPA/second-project.git```
+```
+git remote add origin git@github.com:ZaporozhchenkoPA/second-project.git
+```
 7. Синхронизация с GITHUB
-```git push -u origin main```
+```
+git push -u origin main
+```
+
 
